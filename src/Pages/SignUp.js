@@ -80,7 +80,7 @@ const SignUp = () => {
         InputLabelProps={{
           style: { color: "#fff" },
         }}
-        InputProps={{
+        inputProps={{
           style: { color: "#fff" },
         }}
       />
@@ -89,7 +89,7 @@ const SignUp = () => {
         style={styles.input}
         label="Password"
         variant="standard"
-        type="password"
+        type="text"
         value={user.password}
         onChange={(e) => setUser({ ...user, password: e.target.value })}
         InputLabelProps={{

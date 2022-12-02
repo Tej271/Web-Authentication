@@ -9,10 +9,10 @@
   width: "100%";
 }
 
-.css-yyy811-MuiInputBase-root-MuiInput-root::after {
+.MuiInput-underline:after {
   border-bottom: 2px solid #fff !important;
 }
-.css-yyy811-MuiInputBase-root-MuiInput-root::before {
+.MuiInput-underline:before {
   border-bottom: 2px solid #fff !important;
 }
 
