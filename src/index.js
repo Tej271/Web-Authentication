@@ -5,7 +5,11 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { AuthProvider } from "./CustomHooks/useAuth";
 import { BrowserRouter } from "react-router-dom";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
+import {
+  createTheme,
+  makeStyles,
+  ThemeProvider,
+} from "@material-ui/core/styles";
 
 const theme = createTheme({
   status: {
