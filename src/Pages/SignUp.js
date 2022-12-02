@@ -34,15 +34,14 @@ const SignUp = () => {
 
     if (isEmpty) {
       setMessage("Successfully signed up");
-      login({
-        ...user,
-        token: keygen._({
-          length: 16,
-        }),
-      });
       setSuccess(true);
       setTimeout(function (e) {
-        navigate("/profile");
+        login({
+          ...user,
+          token: keygen._({
+            length: 16,
+          }),
+        });
       }, 1500);
     } else {
       setSuccess(false);
